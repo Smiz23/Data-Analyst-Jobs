@@ -8,7 +8,7 @@ This is a temporary script file.
 from flask import Flask, render_template, request
 import pandas as pd
 
-app = Flask(__name__,template_folder='C:/Users/smizk/Documents/data science notes/Data analyst Job Prediction')
+app = Flask(__name__)
 
 
 @app.route('/',methods=['GET'])
